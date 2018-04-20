@@ -1,0 +1,9 @@
+option java_package = "org.zx.pb.protocol"; 
+option java_outer_classname = "UserProbuf"; 
+ 
+message User { 
+  required int32 id = 1; 
+  required string userName = 2; 
+  optional string phone = 3; 
+  
+} 

@@ -1,0 +1,10 @@
+生成 java文件：
+打开cmd
+在proto.exe目录下执行：protoc  --java_out=./   ./RequestMsg.proto
+
+
+在序列化传输的时候：
+["cmd":""xx,"requestParam":]
+到
+["1":""xx,"2":"xx"]
+传输性能高很多

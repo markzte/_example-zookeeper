@@ -1,0 +1,7 @@
+option java_package = "org.zx.pb.protocol"; 
+option java_outer_classname = "RequestMsgProbuf"; 
+ 
+message RequestMsg { 
+  required string cmd = 1; 
+  required bytes requestParam = 2; 
+} 
